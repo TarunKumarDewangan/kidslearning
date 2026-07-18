@@ -160,6 +160,20 @@ export default function MenuPage() {
             <div className="card-desc">Practice Hindi Vowels!</div>
             <button className="btn-start btn-hindi">Chalo Seekhen!</button>
           </Link>
+
+          {/* ABC Drive */}
+          <Link
+            href="/drive"
+            className="menu-card"
+            style={{ borderColor: "#ff8c32", background: "#fff1e6" }}
+          >
+            <div className="card-icon">🏎️</div>
+            <div className="card-title">ABC Drive</div>
+            <div className="card-desc">Race, collect &amp; trace letters!</div>
+            <button className="btn-start" style={{ background: "#ff8c32" }}>
+              Start Racing
+            </button>
+          </Link>
         </div>
       </div>
     </>
